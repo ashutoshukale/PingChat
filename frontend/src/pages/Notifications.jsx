@@ -14,8 +14,6 @@ const Notifications = () => {
   const incomingRequests = friendRequests?.incomingRequests || [];
   const acceptedRequests = friendRequests?.acceptedRequests || [];
 
-  console.log(acceptedRequests);
-
   const {
     mutate: acceptRequestMutation,
     isPending,
